@@ -129,13 +129,6 @@ const githubEditUrl = `${CONFIG.GITHUB_EDIT_URL}/${currentFile}`;
 				<PageContent frontmatter={frontmatter} headings={headings} githubEditUrl={githubEditUrl}>
 					<slot />
 				</PageContent>
-				<script src="https://utteranc.es/client.js"
-        repo="https://github.com/denis23x/denis23x.github.io"
-        issue-term="url"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-				</script>
 			</div>
 			<aside id="grid-right" class="grid-sidebar" title="Table of Contents">
 				<RightSidebar headings={headings} githubEditUrl={githubEditUrl} />

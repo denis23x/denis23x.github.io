@@ -21,6 +21,13 @@ const title = frontmatter.title;
 			<TableOfContents client:media="(max-width: 50em)" headings={headings} />
 		</nav>
 		<slot />
+		<script src="https://utteranc.es/client.js"
+		repo="denis23x/denis23x.github.io"
+		issue-term="url"
+		theme="github-light"
+		crossorigin="anonymous"
+		async>
+		</script>
 	</section>
 	<nav class="block sm:hidden">
 		<MoreMenu editHref={githubEditUrl} />
