@@ -55,7 +55,7 @@ export const SIDEBAR: Sidebar = {
 		],
 		'Another Section': [
 			{ text: 'Page 4', link: 'en/page-4' },
-			{ text: 'Denis', link: 'en/denis' },
+			{ text: 'Init epic', link: 'en/init-epic' },
 		],
 	},
 	ru: {
